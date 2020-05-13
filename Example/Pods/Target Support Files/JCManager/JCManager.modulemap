@@ -1,0 +1,6 @@
+framework module JCManager {
+  umbrella header "JCManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JCManager (0.1.0)
+
+DEPENDENCIES:
+  - JCManager (from `../`)
+
+EXTERNAL SOURCES:
+  JCManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCManager: fcdce5eb896a3926b99873d56d697cc9fdf5b5af
+
+PODFILE CHECKSUM: a45dab5c4d6229ecbcc4463f7a8efa5e1dda24eb
+
+COCOAPODS: 1.8.4
