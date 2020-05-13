@@ -7,6 +7,7 @@
 //
 
 #import "JCViewController.h"
+#import "JCTest.h"
 
 @interface JCViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    JCTest * model = [JCTest new];
+    [model testPrint:@"888"];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
